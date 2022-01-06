@@ -27,5 +27,11 @@ dependencies {
 }
 
 apollo {
-	packageName.set("com.apollo.v3.core")
+	packageNamesFromFilePaths()
+
+	generateApolloMetadata = true
+
+	useSemanticNaming = true
+
+	sealedClassesForEnumsMatching = [".*"]
 }

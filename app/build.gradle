@@ -35,5 +35,5 @@ dependencies {
 }
 
 apollo {
-	packageName.set("com.apollo.v3.app")
+	packageNamesFromFilePaths()
 }

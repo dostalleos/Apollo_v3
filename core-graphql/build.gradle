@@ -27,5 +27,6 @@ dependencies {
 }
 
 apollo {
+	generateApolloMetadata.set(true)
 	packageName.set("com.apollo.v3.core")
 }

@@ -1,0 +1,9 @@
+fragment UserCore on User {
+    id
+}
+
+query TestCore {
+    me {
+        id
+    }
+}

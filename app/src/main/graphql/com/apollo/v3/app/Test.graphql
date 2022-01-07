@@ -1,0 +1,9 @@
+fragment UserApp on User {
+    id
+}
+
+query TestApp {
+    me {
+        id
+    }
+}
